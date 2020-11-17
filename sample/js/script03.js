@@ -13,11 +13,11 @@ $(function(){
   })
 
 
-  $("#botton01").on("click",function(){
+  $("#button01").on("click",function(){
     $("#content").text(students[0].name + ':' + students[0].sport)
   })
 
-  $("#botton02").on("click",function(){
+  $("#button02").on("click",function(){
     let students_txt = "";
 
     for(let i=0; i<students.length; i++){
@@ -27,7 +27,7 @@ $(function(){
     $("#content").text(students_txt);
   })
 
-  $("#botton03").on("click",function(){
+  $("#button03").on("click",function(){
     let students_txt = "<div class='students'>";
 
     for(let i=0; i<students.length; i++){

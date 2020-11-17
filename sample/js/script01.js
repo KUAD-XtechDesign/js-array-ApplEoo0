@@ -6,19 +6,19 @@ $(function(){
     console.log(students)
   })
 
-  $("#botton01").on("click",function(){
+  $("#button01").on("click",function(){
     $("#content").text("最初のめんばーは" + students[0] + "学生は全員で" + students.length + "人");
   })
 
-  $("#botton02").on("click",function(){
+  $("#button02").on("click",function(){
     $("#content").text(students[2]);
   })
 
-  $("#botton03").on("click",function(){
+  $("#button03").on("click",function(){
     $("#content").text(students[students.length-1]);
   })
 
-  $("#botton04").on("click",function(){
+  $("#button04").on("click",function(){
     students.push("山下")
 
     $("#content").tect(students[students.length-1]);
